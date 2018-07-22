@@ -1,0 +1,14 @@
+D:\OneDrive\Tony Reilly\Websites\TGH\Projects\GitHub\Ultimate Settings Panel\Release\Ultimate Settings Panel.exe.config
+D:\OneDrive\Tony Reilly\Websites\TGH\Projects\GitHub\Ultimate Settings Panel\Release\Ultimate Settings Panel.exe
+D:\OneDrive\Tony Reilly\Websites\TGH\Projects\GitHub\Ultimate Settings Panel\Release\Ultimate Settings Panel.pdb
+D:\OneDrive\Tony Reilly\Websites\TGH\Projects\GitHub\Ultimate Settings Panel\Ultimate Settings Panel\obj\Release\Interop.PlaLibrary.dll
+D:\OneDrive\Tony Reilly\Websites\TGH\Projects\GitHub\Ultimate Settings Panel\Ultimate Settings Panel\obj\Release\Ultimate Settings Panel.csproj.ResolveComReference.cache
+D:\OneDrive\Tony Reilly\Websites\TGH\Projects\GitHub\Ultimate Settings Panel\Ultimate Settings Panel\obj\Release\Ultimate_Settings_Panel.About.resources
+D:\OneDrive\Tony Reilly\Websites\TGH\Projects\GitHub\Ultimate Settings Panel\Ultimate Settings Panel\obj\Release\Ultimate_Settings_Panel.cmdoutput.resources
+D:\OneDrive\Tony Reilly\Websites\TGH\Projects\GitHub\Ultimate Settings Panel\Ultimate Settings Panel\obj\Release\Ultimate_Settings_Panel.Main.resources
+D:\OneDrive\Tony Reilly\Websites\TGH\Projects\GitHub\Ultimate Settings Panel\Ultimate Settings Panel\obj\Release\Ultimate_Settings_Panel.Properties.Resources.resources
+D:\OneDrive\Tony Reilly\Websites\TGH\Projects\GitHub\Ultimate Settings Panel\Ultimate Settings Panel\obj\Release\Ultimate Settings Panel.csproj.GenerateResource.cache
+D:\OneDrive\Tony Reilly\Websites\TGH\Projects\GitHub\Ultimate Settings Panel\Ultimate Settings Panel\obj\Release\Ultimate Settings Panel.csproj.CoreCompileInputs.cache
+D:\OneDrive\Tony Reilly\Websites\TGH\Projects\GitHub\Ultimate Settings Panel\Ultimate Settings Panel\obj\Release\Ultimate Settings Panel.csproj.CopyComplete
+D:\OneDrive\Tony Reilly\Websites\TGH\Projects\GitHub\Ultimate Settings Panel\Ultimate Settings Panel\obj\Release\Ultimate Settings Panel.exe
+D:\OneDrive\Tony Reilly\Websites\TGH\Projects\GitHub\Ultimate Settings Panel\Ultimate Settings Panel\obj\Release\Ultimate Settings Panel.pdb
