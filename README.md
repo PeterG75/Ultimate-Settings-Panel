@@ -7,7 +7,7 @@ The features that it has at the moment are that you can use it to open a wide ra
 The utility uses C# and has the Metro Framework for the design and layout.
 # Links
 The various links for Ultimate Settings Panel are below:
-Homepage: https://blog.techygeekshome.info/ultimate-settings-panel-homepage/
-Instructions: https://blog.techygeekshome.info/ultimate-settings-panel-homepage/ultimate-settings-panel-instructions/
-Video Demo (v5.6): https://www.youtube.com/embed/G5fBL_TSdbM 
-Screenshots (v6.1): https://blog.techygeekshome.info/ultimate-settings-panel-homepage/ultimate-settings-panel-screenshots/
+- Homepage: https://blog.techygeekshome.info/ultimate-settings-panel-homepage/
+- Instructions: https://blog.techygeekshome.info/ultimate-settings-panel-homepage/ultimate-settings-panel-instructions/
+- Video Demo (v5.6): https://www.youtube.com/embed/G5fBL_TSdbM
+- Screenshots (v6.1): https://blog.techygeekshome.info/ultimate-settings-panel-homepage/ultimate-settings-panel-screenshots
