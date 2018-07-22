@@ -221,6 +221,7 @@
     <None Include="Resources\WordPress_32px.png" />
     <None Include="Resources\YouTube 2_32px.png" />
     <None Include="Resources\TGH Profile Image.jpg" />
+    <None Include="Resources\github-icon.png" />
     <Content Include="USP.ico" />
   </ItemGroup>
   <ItemGroup>

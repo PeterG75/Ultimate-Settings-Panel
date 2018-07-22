@@ -83,6 +83,16 @@ namespace Ultimate_Settings_Panel.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap github_icon {
+            get {
+                object obj = ResourceManager.GetObject("github-icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Google_32px {
             get {
                 object obj = ResourceManager.GetObject("Google_32px", resourceCulture);

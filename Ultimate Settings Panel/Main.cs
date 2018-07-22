@@ -3824,5 +3824,10 @@ namespace Ultimate_Settings_Panel
                 MetroMessageBox.Show(this, ex.Message.ToString() + MessageBoxErrorCode, "Error", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
             }
         }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            general.github();
+        }
     }
     }

@@ -368,6 +368,11 @@
             this.metroLinkVersionInformation = new MetroFramework.Controls.MetroLink();
             this.timerTime = new System.Windows.Forms.Timer(this.components);
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.metroStyleManagerSelector = new MetroFramework.Components.MetroStyleManager(this.components);
+            this.metroToolTipTheme = new MetroFramework.Components.MetroToolTip();
+            this.metroToolTipStyle = new MetroFramework.Components.MetroToolTip();
+            this.metroLink1 = new MetroFramework.Controls.MetroLink();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
@@ -379,10 +384,6 @@
             this.pictureBox14 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBoxExit = new System.Windows.Forms.PictureBox();
-            this.metroStyleManagerSelector = new MetroFramework.Components.MetroStyleManager(this.components);
-            this.metroToolTipTheme = new MetroFramework.Components.MetroToolTip();
-            this.metroToolTipStyle = new MetroFramework.Components.MetroToolTip();
-            this.metroLink1 = new MetroFramework.Controls.MetroLink();
             this.metroTabControl.SuspendLayout();
             this.metroTabHome.SuspendLayout();
             this.metroPanel2.SuspendLayout();
@@ -402,6 +403,8 @@
             this.metroTabFirefox.SuspendLayout();
             this.metroTabChrome.SuspendLayout();
             this.metroTabTricks.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.metroStyleManagerSelector)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
@@ -413,7 +416,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxExit)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.metroStyleManagerSelector)).BeginInit();
             this.SuspendLayout();
             // 
             // metroTabControl
@@ -474,7 +476,7 @@
             this.metroPanel2.HorizontalScrollbarSize = 2;
             this.metroPanel2.Location = new System.Drawing.Point(523, 3);
             this.metroPanel2.Name = "metroPanel2";
-            this.metroPanel2.Size = new System.Drawing.Size(467, 416);
+            this.metroPanel2.Size = new System.Drawing.Size(486, 416);
             this.metroPanel2.TabIndex = 31;
             this.metroPanel2.VerticalScrollbarBarColor = true;
             this.metroPanel2.VerticalScrollbarHighlightOnWheel = false;
@@ -5431,6 +5433,46 @@
             this.timerTime.Enabled = true;
             this.timerTime.Tick += new System.EventHandler(this.timerTime_Tick);
             // 
+            // metroStyleManagerSelector
+            // 
+            this.metroStyleManagerSelector.Owner = this;
+            // 
+            // metroToolTipTheme
+            // 
+            this.metroToolTipTheme.Style = MetroFramework.MetroColorStyle.Blue;
+            this.metroToolTipTheme.StyleManager = null;
+            this.metroToolTipTheme.Theme = MetroFramework.MetroThemeStyle.Light;
+            // 
+            // metroToolTipStyle
+            // 
+            this.metroToolTipStyle.Style = MetroFramework.MetroColorStyle.Blue;
+            this.metroToolTipStyle.StyleManager = null;
+            this.metroToolTipStyle.Theme = MetroFramework.MetroThemeStyle.Light;
+            // 
+            // metroLink1
+            // 
+            this.metroLink1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.metroLink1.Location = new System.Drawing.Point(1, 543);
+            this.metroLink1.Name = "metroLink1";
+            this.metroLink1.Size = new System.Drawing.Size(142, 23);
+            this.metroLink1.TabIndex = 22;
+            this.metroLink1.Text = "TechyGeeksHome 2018";
+            this.metroLink1.UseSelectable = true;
+            this.metroLink1.UseStyleColors = true;
+            this.metroLink1.Click += new System.EventHandler(this.metroLink1_Click_1);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox2.Image = global::Ultimate_Settings_Panel.Properties.Resources.github_icon;
+            this.pictureBox2.Location = new System.Drawing.Point(770, 6);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 23;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
+            // 
             // pictureBox9
             // 
             this.pictureBox9.BackColor = System.Drawing.Color.Transparent;
@@ -5579,40 +5621,13 @@
             this.pictureBoxExit.MouseLeave += new System.EventHandler(this.pictureBoxExit_MouseLeave);
             this.pictureBoxExit.MouseHover += new System.EventHandler(this.pictureBoxExit_MouseHover);
             // 
-            // metroStyleManagerSelector
-            // 
-            this.metroStyleManagerSelector.Owner = this;
-            // 
-            // metroToolTipTheme
-            // 
-            this.metroToolTipTheme.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroToolTipTheme.StyleManager = null;
-            this.metroToolTipTheme.Theme = MetroFramework.MetroThemeStyle.Light;
-            // 
-            // metroToolTipStyle
-            // 
-            this.metroToolTipStyle.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroToolTipStyle.StyleManager = null;
-            this.metroToolTipStyle.Theme = MetroFramework.MetroThemeStyle.Light;
-            // 
-            // metroLink1
-            // 
-            this.metroLink1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.metroLink1.Location = new System.Drawing.Point(1, 543);
-            this.metroLink1.Name = "metroLink1";
-            this.metroLink1.Size = new System.Drawing.Size(142, 23);
-            this.metroLink1.TabIndex = 22;
-            this.metroLink1.Text = "TechyGeeksHome 2018";
-            this.metroLink1.UseSelectable = true;
-            this.metroLink1.UseStyleColors = true;
-            this.metroLink1.Click += new System.EventHandler(this.metroLink1_Click_1);
-            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1077, 565);
             this.ControlBox = false;
+            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.metroLink1);
             this.Controls.Add(this.pictureBox9);
             this.Controls.Add(this.pictureBox8);
@@ -5657,6 +5672,8 @@
             this.metroTabFirefox.ResumeLayout(false);
             this.metroTabChrome.ResumeLayout(false);
             this.metroTabTricks.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.metroStyleManagerSelector)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
@@ -5668,7 +5685,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxExit)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.metroStyleManagerSelector)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -6028,6 +6044,7 @@
         private MetroFramework.Controls.MetroTextBox.MetroTextButton btn_CMDDeleteIEHistory;
         private MetroFramework.Controls.MetroTextBox.MetroTextButton btn_CMDBitLocker;
         private MetroFramework.Controls.MetroTextBox.MetroTextButton btn_CMDResetWMI;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }
 

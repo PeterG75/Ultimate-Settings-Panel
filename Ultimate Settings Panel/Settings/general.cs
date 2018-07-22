@@ -60,6 +60,11 @@ namespace Ultimate_Settings_Panel.Settings
         {
             Process.Start("https://www.youtube.com/watch?v=G5fBL_TSdbM");
         }
+
+        public void github()
+        {
+            Process.Start("https://github.com/techygeekshome/Ultimate-Settings-Panel");
+        }
            
     }
 }
